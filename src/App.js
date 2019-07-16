@@ -18,6 +18,14 @@ function App() {
         >
           Learn React
         </a>
+        <div className="App-Logo2">
+          <p>Logo</p>
+        </div>
+        <div className="lowerLeft">
+          <p>Powered by <a href="https://en.wikipedia.org/wiki/Coffee">
+          AL and BC</a>
+          </p>
+        </div>
       </header>
     </div>
   );
