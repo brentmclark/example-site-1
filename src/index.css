@@ -8,10 +8,6 @@ body {
   background-image: url("./galaxy.jpg");
   background-size:     cover;                      /* <------ */
   background-repeat:   no-repeat;
-  background-position: center center;              /* optional, center the image */
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+  background-position: center center;
+               /* optional, center the image */
 }

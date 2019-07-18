@@ -2,12 +2,6 @@
   text-align: center;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
-}
-
 .App-header {
   min-height: 100vh;
   display: flex;
@@ -16,34 +10,63 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
-}
-
-.App-link {
-  color: #61dafb;
+  margin: none;
+  border:none;
 }
 
 .App-Logo2 {
   position: absolute;
-  top: -30px;
+  top: -20px;
   left: 0px;
   color:violet;
   font-size: 30px;
-  padding: 10px 20px;
+  padding: 0px 20px;
 }
 
 .lowerLeft {
-position: absolute;
-bottom: 0px;
-left: 20px;
-color: violet;
-font-size: 15px;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  color: violet;
+  font-size: 15px;
+  margin: 0px;
+  padding: 0px 20px;
+}
 
+.border{
+  border-bottom: 4px solid rgb(170, 47, 207);
+  margin:auto;
+  width: 50%;
 }
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+
+.container{
+  display: flex;
+  flex-direction: column;
+}
+
+h1{
+  color:rgb(255, 255, 255);
+}
+
+p.days{
+  color: rgb(255, 255, 255);
+}
+
+@media screen and (max-width:1024px){
+  .lowerLeft{
+    bottom:0px;
+    left: 0px;
+    margin: 0px;
+    padding: 0px 15px;
   }
 }
+
+@media screen and (max-width: 600px){
+  .lowerLeft{
+    bottom: 0px;
+    left: 0px;
+    margin: 0px;
+    padding: 0px 15px;
+  }
+}
+
